@@ -351,6 +351,20 @@ a:hover {
   border-radius: 0;
 }
 
+.news-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 12px;
+  border-radius: 12px;
+}
+
 /* Clickable cards should not look like links */
 .partners-grid a.card,
 a.news-card {
