@@ -9,7 +9,7 @@
   --accent: #16a34a; 
   --accent-2: #0e7c3a; 
   --ring: rgba(22,163,74,.25); 
-  --max: 1100px; 
+  --max: 1400px; 
 }
 
 * { box-sizing: border-box; }
@@ -365,11 +365,9 @@ a.news-card:hover {
 
 .partners-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 520px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
-  justify-content: start; /* prevents full-width stretching */
 }
-
 
 /* Card media should be flush + clipped by the card */
 .card {
